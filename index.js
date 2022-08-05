@@ -31,3 +31,13 @@ function Clear()
     document.getElementById("email").value=" ";
     document.getElementById("password").value="";
 }	
+function login1()
+{
+    var Email = document.getElementById("email").value;
+    if(Email==Email){
+        alert('Get start')
+    }
+    else{
+        alert('email error')
+    }
+}
